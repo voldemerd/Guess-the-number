@@ -7,6 +7,7 @@ let image = document.getElementById('imghide');
 let x =document.getElementById('para1');
 let y =document.getElementById('para2');
 let h1 =document.getElementById('head');
+let t=document.getElementById('try');
 let correctno = '';
 let j = 9;
 let array=[];
@@ -60,6 +61,7 @@ button.addEventListener('click', function() {
                 para3.style.fontSize='50px';
                 para3.textContent='You lose';
                 h1.style.display='none';
+                t.style.display='block';
             }
     }
 });
