@@ -20,7 +20,7 @@ button.addEventListener('click', function() {
 
     console.log(input.value);
     if (+input.value === correctno) {
-        para3.textContent='Gome over';
+        para3.textContent='Game over';
         image.style.display='block';
         button.style.display="none";
         x.style.display="none";
